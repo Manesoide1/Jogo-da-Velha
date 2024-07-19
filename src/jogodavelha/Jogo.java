@@ -53,6 +53,10 @@ public class Jogo {
             }
 
             if (tabuleiro.tabuleiroCompleto()) {
+                if (ganhou() == -1) {
+                    System.out.println("Jogador 1 ganhou!");
+                    return false;
+                }
                 System.out.println("Tabuleiro Completo. Jogo empatado");
                 return false;
             }
