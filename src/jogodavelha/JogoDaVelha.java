@@ -1,7 +1,5 @@
 package jogodavelha;
 
-import java.util.Scanner;
-
 /**
  * Classe principal para iniciar o jogo da velha.
  */
